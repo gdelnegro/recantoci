@@ -1,0 +1,70 @@
+[01-Nov-2013 08:34:10 America/New_York] PHP Fatal error:  Call to a member function post() on a non-object in /home/bestwebf/public_html/recanto/admin/application/controllers/home.php on line 13
+[01-Nov-2013 08:35:13 America/New_York] PHP Fatal error:  Call to undefined function set_userdata() in /home/bestwebf/public_html/recanto/admin/application/controllers/home.php on line 21
+[02-Nov-2013 09:17:37 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 36
+[02-Nov-2013 09:42:11 America/New_York] PHP Fatal error:  Call to undefined function url_site() in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 34
+[02-Nov-2013 09:42:27 America/New_York] PHP Fatal error:  Call to undefined function url_site() in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 33
+[02-Nov-2013 09:42:29 America/New_York] PHP Fatal error:  Call to undefined function url_site() in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 33
+[02-Nov-2013 09:42:30 America/New_York] PHP Fatal error:  Call to undefined function url_site() in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 33
+[02-Nov-2013 09:42:31 America/New_York] PHP Fatal error:  Call to undefined function url_site() in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 33
+[02-Nov-2013 09:50:37 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 36
+[02-Nov-2013 09:52:22 America/New_York] PHP Fatal error:  Call to undefined function url_base() in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 34
+[02-Nov-2013 09:52:44 America/New_York] PHP Fatal error:  Call to undefined function dominio() in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 34
+[02-Nov-2013 10:00:21 America/New_York] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 34
+[02-Nov-2013 15:51:58 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 15:59:46 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 15:59:48 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 16:02:29 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:26:09 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:27:20 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:27:35 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:28:03 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:28:06 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:28:13 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:29:08 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:29:10 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:33:01 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 36
+[02-Nov-2013 21:35:19 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 36
+[02-Nov-2013 21:37:04 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 36
+[02-Nov-2013 21:37:06 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 36
+[02-Nov-2013 21:37:21 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:44:00 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:44:01 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:44:02 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:44:02 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:44:03 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:44:11 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:45:26 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[02-Nov-2013 21:45:28 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 35
+[05-Nov-2013 16:42:55 America/New_York] PHP Fatal error:  Call to a member function set_heading() on a non-object in /home/bestwebf/public_html/recanto/admin/application/views/home.php on line 57
+[05-Nov-2013 16:43:27 America/New_York] PHP Fatal error:  Call to a member function set_heading() on a non-object in /home/bestwebf/public_html/recanto/admin/application/views/home.php on line 57
+[05-Nov-2013 16:43:51 America/New_York] PHP Fatal error:  Call to a member function set_heading() on a non-object in /home/bestwebf/public_html/recanto/admin/application/views/home.php on line 57
+[05-Nov-2013 16:45:06 America/New_York] PHP Fatal error:  Call to a member function set_heading() on a non-object in /home/bestwebf/public_html/recanto/admin/application/views/home.php on line 57
+[05-Nov-2013 16:45:09 America/New_York] PHP Fatal error:  Call to a member function set_heading() on a non-object in /home/bestwebf/public_html/recanto/admin/application/views/home.php on line 57
+[05-Nov-2013 16:45:11 America/New_York] PHP Fatal error:  Call to a member function set_heading() on a non-object in /home/bestwebf/public_html/recanto/admin/application/views/home.php on line 57
+[05-Nov-2013 16:45:52 America/New_York] PHP Fatal error:  Call to a member function set_heading() on a non-object in /home/bestwebf/public_html/recanto/admin/application/views/home.php on line 57
+[05-Nov-2013 16:45:55 America/New_York] PHP Fatal error:  Call to a member function set_heading() on a non-object in /home/bestwebf/public_html/recanto/admin/application/views/home.php on line 57
+[05-Nov-2013 16:46:05 America/New_York] PHP Fatal error:  Call to a member function set_heading() on a non-object in /home/bestwebf/public_html/recanto/admin/application/views/home.php on line 57
+[06-Nov-2013 17:21:27 America/New_York] PHP Parse error:  syntax error, unexpected '[' in /home/bestwebf/public_html/recanto/admin/application/views/editar_frio.php on line 36
+[06-Nov-2013 18:25:26 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/bestwebf/public_html/recanto/admin/application/views/editar_receita.php on line 48
+[06-Nov-2013 18:25:30 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/bestwebf/public_html/recanto/admin/application/views/editar_receita.php on line 48
+[11-Nov-2013 09:32:16 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_acougue.php on line 50
+[11-Nov-2013 09:32:27 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_acougue.php on line 50
+[11-Nov-2013 09:32:58 America/New_York] PHP Fatal error:  Cannot use object of type stdClass as array in /home/bestwebf/public_html/recanto/admin/application/views/editar_acougue.php on line 50
+[11-Nov-2013 15:25:01 America/New_York] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::result() in /home/bestwebf/public_html/recanto/admin/application/controllers/acougue_modo_preparos.php on line 13
+[11-Nov-2013 15:28:17 America/New_York] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::result() in /home/bestwebf/public_html/recanto/admin/application/controllers/acougue_modo_preparos.php on line 13
+[11-Nov-2013 15:28:19 America/New_York] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::result() in /home/bestwebf/public_html/recanto/admin/application/controllers/acougue_modo_preparos.php on line 13
+[11-Nov-2013 15:29:00 America/New_York] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::result() in /home/bestwebf/public_html/recanto/admin/application/controllers/acougue_modo_preparos.php on line 13
+[11-Nov-2013 15:29:05 America/New_York] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::result() in /home/bestwebf/public_html/recanto/admin/application/controllers/acougue_modo_preparos.php on line 13
+[11-Nov-2013 15:29:06 America/New_York] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::result() in /home/bestwebf/public_html/recanto/admin/application/controllers/acougue_modo_preparos.php on line 13
+[11-Nov-2013 15:29:08 America/New_York] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::result() in /home/bestwebf/public_html/recanto/admin/application/controllers/acougue_modo_preparos.php on line 13
+[11-Nov-2013 15:44:56 America/New_York] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::result() in /home/bestwebf/public_html/recanto/admin/application/controllers/acougue_modo_preparos.php on line 13
+[11-Nov-2013 16:26:58 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 96
+[11-Nov-2013 16:35:19 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 81
+[11-Nov-2013 16:35:31 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 83
+[11-Nov-2013 16:35:43 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 83
+[11-Nov-2013 16:36:24 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 87
+[11-Nov-2013 16:36:32 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 87
+[11-Nov-2013 16:40:53 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 82
+[11-Nov-2013 16:59:25 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 82
+[11-Nov-2013 16:59:41 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 82
+[11-Nov-2013 17:06:53 America/New_York] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/bestwebf/public_html/recanto/admin/application/controllers/acougues.php on line 84

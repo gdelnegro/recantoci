@@ -45,24 +45,42 @@
 | the active record class
 */
 
-$active_group = 'default';
+$active_group = 'producao';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
-$db['default']['dbdriver'] = 'mysql';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
+$db['testes']['hostname'] = 'localhost';
+$db['testes']['username'] = 'root';
+$db['testes']['password'] = 'best123fast';
+/*
+$db['testes']['database'] = 'develop_bestwebf_recanto';
+$db['testes']['dbdriver'] = 'mysql';
+$db['testes']['dbprefix'] = '';
+$db['testes']['pconnect'] = TRUE;
+$db['testes']['db_debug'] = TRUE;
+$db['testes']['cache_on'] = FALSE;
+$db['testes']['cachedir'] = '';
+$db['testes']['char_set'] = 'utf8';
+$db['testes']['dbcollat'] = 'utf8_general_ci';
+$db['testes']['swap_pre'] = '';
+$db['testes']['autoinit'] = TRUE;
+$db['testes']['stricton'] = FALSE;
+*/
+
+$db['producao']['hostname'] = 'localhost';
+$db['producao']['username'] = 'root';
+$db['producao']['password'] = 'gutinho17';
+$db['producao']['database'] = 'bestwebf_recanto';
+$db['producao']['dbdriver'] = 'mysql';
+$db['producao']['dbprefix'] = '';
+$db['producao']['pconnect'] = TRUE;
+$db['producao']['db_debug'] = TRUE;
+$db['producao']['cache_on'] = FALSE;
+$db['producao']['cachedir'] = '';
+$db['producao']['char_set'] = 'utf8';
+$db['producao']['dbcollat'] = 'utf8_general_ci';
+$db['producao']['swap_pre'] = '';
+$db['producao']['autoinit'] = TRUE;
+$db['producao']['stricton'] = FALSE;
 
 
 /* End of file database.php */
