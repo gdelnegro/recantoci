@@ -20,14 +20,16 @@ class Modo_preparo extends CI_Controller {
 	
 	public function salvar_alteracao(){
 		$this->load->library('form_validation');
-		$this->form_validation->set_rules('titulo', 'Título', 'required');
+		$this->form_validation->set_rules('modo_preparo', 'modo_preparo', 'required');
 		if($this->form_validation->run() == FALSE)
 		{
 			$this->index();
 		}
 		else
 		{
-			$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/preparo';
+			#$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/preparo';
+                        $diretorio = getcwd();
+                        $config['upload_path'] = $diretorio.'/../imagens/preparo';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']	= '1024';
 			$config['max_width']  = '800';
@@ -37,10 +39,10 @@ class Modo_preparo extends CI_Controller {
 			if($this->upload->do_upload())
 			{
 				$arquivo_upado = $this->upload->data();
-				$dados['imagem_modo_prepraro'] = $arquivo_upado['file_name'];
+				$dados['imagem_modo_preparo'] = $arquivo_upado['file_name'];
 			}	
 			
-			$dados['titulo'] = $this->input->post('titulo');
+			$dados['modo_preparo'] = $this->input->post('modo_preparo');
 			
 			$this->db->where('id',$this->input->post('id'));
 			$this->db->update('modo_preparo',$dados);
@@ -51,14 +53,16 @@ class Modo_preparo extends CI_Controller {
 	
 	public function adicionar(){
 		$this->load->library('form_validation');
-		$this->form_validation->set_rules('titulo', 'Titulo', 'required');
+		$this->form_validation->set_rules('modo_preparo', 'Modo de preparo', 'required');
 		if($this->form_validation->run() == FALSE)
 		{
 			$this->index();
 		}
 		else
 		{
-			$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/acougue/modo_preparo';
+                        $diretorio = getcwd();
+                        $config['upload_path'] = $diretorio.'/../imagens/preparo';
+			#$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/acougue/modo_preparo';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']	= '1024';
 			$config['max_width']  = '800';
@@ -71,7 +75,7 @@ class Modo_preparo extends CI_Controller {
 				echo "<a href='javascript:history.go(-1)'>Voltar e corrigir.</a>";
 			}	
 			else{
-				$dados['titulo'] = $this->input->post('titulo');
+				$dados['modo_preparo'] = $this->input->post('modo_preparo');
 				$arquivo_upado = $this->upload->data();
 				$dados['imagem_modo_preparo'] = $arquivo_upado['file_name'];
 				$this->db->insert('modo_preparo',$dados);

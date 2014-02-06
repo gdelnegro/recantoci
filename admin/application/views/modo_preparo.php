@@ -11,8 +11,8 @@
 				
 				echo form_label("Titulo","titulo");
 				$atributos = array(
-					"name"	=>	"titulo",
-					"id"	=>	"titulo",
+					"name"	=>	"modo_preparo",
+					"id"	=>	"modo_preparo",
 					"value"	=>	set_value('titulo')
 				);
 				echo form_input($atributos);
@@ -47,7 +47,7 @@
 				anchor(
 					base_url() . "modo_preparo/editar/".$mp->id,
 					img('assets/imgs/gear.gif'),
-					array('onclick'=>"return confirm('Confirma a alteração deste mmodo de preparo?');")
+					array('onclick'=>"return confirm('Confirma a alteração deste modo de preparo?');")
 				),
 				
 				$mp->modo_preparo,

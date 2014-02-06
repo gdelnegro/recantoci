@@ -1,6 +1,6 @@
 <div id="content">
 	<?php
-		echo heading("Cadastrar cortes " . img(base_url().'assets/imgs/novo.gif'),2,"class='divisor'");
+		echo heading("Cadastrar carnes " . img(base_url().'assets/imgs/novo.gif'),2,"class='divisor'");
 		
 		$attributes = array('class' => 'formcadastros', 'id' => 'formcadastro');
 		echo form_open_multipart('acougues/adicionar', $attributes);		

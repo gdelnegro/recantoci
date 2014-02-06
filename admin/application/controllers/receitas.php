@@ -30,7 +30,9 @@ class Receitas extends CI_Controller {
 		}
 		else
 		{
-			$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/receitas';
+			$diretorio = getcwd();
+                        $config['upload_path'] = $diretorio.'/../imagens/receitas';
+                        #$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/receitas';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']	= '1024';
 			$config['max_width']  = '800';
@@ -78,7 +80,9 @@ class Receitas extends CI_Controller {
 		}
 		else
 		{
-			$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/receitas';
+			$diretorio = getcwd();
+                        $config['upload_path'] = $diretorio.'/../imagens/receitas';
+                        #$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/receitas';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']	= '1024';
 			$config['max_width']  = '800';

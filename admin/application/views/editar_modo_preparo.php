@@ -25,7 +25,7 @@
 				echo '<img src=/imagens/preparo/'.$modo_preparo[0]->imagem_modo_preparo.' width="50%">';
 				echo "<br/>";
 				echo "<br/>";
-				echo form_label("Trocar a imagem da carne","userfile");
+				echo form_label("Trocar a imagem do modo de preparo","userfile");
 				echo "<br/>";
 				$atributos = array(
 					"name"	=>	"userfile",

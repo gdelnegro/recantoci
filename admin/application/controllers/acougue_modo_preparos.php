@@ -47,7 +47,9 @@ class Acougue_modo_preparos extends CI_Controller {
 		}
 		else
 		{
-			$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/acougue/carnes';
+			$diretorio = getcwd();
+                        $config['upload_path'] = $diretorio.'/../imagens/preparo';
+                        #$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/acougue/carnes';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']	= '1024';
 			$config['max_width']  = '800';
