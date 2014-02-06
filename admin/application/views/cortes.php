@@ -41,7 +41,7 @@
 				anchor(
 					base_url() . "cortes/excluir/" . $corte->id,
 					img('assets/imgs/xis.gif'),
-					array('onclick'=>"return confirm('Confirma a excluão deste corte?');")
+					array('onclick'=>"return confirm('Confirma a exclusão deste corte?');")
 				),
 							
 				anchor(
