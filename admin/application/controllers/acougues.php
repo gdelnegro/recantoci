@@ -45,8 +45,8 @@ class Acougues extends CI_Controller {
 		else
 		{
                         $diretorio = getcwd();
-                        #$config['upload_path'] = '/var/www/recanto/imagens/acougue/carnes';
-			$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/acougue/carnes';
+                        $config['upload_path'] = $diretorio.'/../imagens/acougue/carnes';
+			#$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/acougue/carnes';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']	= '1024';
 			$config['max_width']  = '800';
@@ -157,8 +157,10 @@ class Acougues extends CI_Controller {
 			$this->index();
 		}
 		else
-		{
-			$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/acougue/carnes';
+		{       
+                        $diretorio = getcwd();
+			#$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/acougue/carnes';
+                        $config['upload_path'] = $diretorio.'/../imagens/acougue/carnes';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']	= '1024';
 			$config['max_width']  = '800';
@@ -167,6 +169,7 @@ class Acougues extends CI_Controller {
 			$this->load->library('upload', $config);
 			if($this->upload->do_upload())
 			{
+                            
 				$arquivo_upado = $this->upload->data();
 				$dados['imagem_carne'] = $arquivo_upado['file_name'];
 			}

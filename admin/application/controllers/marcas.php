@@ -27,8 +27,10 @@ class Marcas extends CI_Controller {
 			$this->index();
 		}
 		else
-		{
-			$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/marcas';
+		{       
+                        $diretorio = getcwd();
+                        $config['upload_path'] = $diretorio.'/../imagens/marcas';
+			#$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/marcas';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']	= '1024';
 			$config['max_width']  = '800';
@@ -38,7 +40,7 @@ class Marcas extends CI_Controller {
 			if($this->upload->do_upload())
 			{
 				$arquivo_upado = $this->upload->data();
-				$dados['imagem_receita'] = $arquivo_upado['file_name'];
+				$dados['imagem_marca'] = $arquivo_upado['file_name'];
 			}	
 			
 			$dados['titulo'] = $this->input->post('titulo');
@@ -61,7 +63,10 @@ class Marcas extends CI_Controller {
 		}
 		else
 		{
-			$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/marcas';
+                    
+                        $diretorio = getcwd();
+                        $config['upload_path'] = $diretorio.'/../imagens/marcas';
+			#$config['upload_path'] = '/home/bestwebf/www/recanto/imagens/marcas';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']	= '1024';
 			$config['max_width']  = '800';
